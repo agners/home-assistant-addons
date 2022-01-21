@@ -5,7 +5,8 @@ description: Zigbee and OpenThread multiprotocol add-on
 url: https://github.com/home-assistant/hassio-addons/tree/master/silabs-multiprotocol
 arch:
   - armv7
-  - aarch64
+# Currently zigbeed crashes with *** stack smashing detected ***
+#  - aarch64
 hassio_api: true
 homeassistant: 2021.1.0
 privileged:
