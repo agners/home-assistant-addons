@@ -14,7 +14,8 @@ image: homeassistant/{arch}-addon-silabs-multiprotocol
 init: false
 options:
   device: null
-  log_level: info
+  cpcd_trace: false
+  socat_trace: false
 ports:
   9999/tcp: null
 ports_description:
@@ -22,5 +23,6 @@ ports_description:
 schema:
   device: device(subsystem=tty)
   cpcd_trace: bool
+  socat_trace: bool
 stage: experimental
 startup: services
