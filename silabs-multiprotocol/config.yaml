@@ -11,7 +11,7 @@ hassio_api: true
 homeassistant: 2021.1.0
 privileged:
   - IPC_LOCK
-image: homeassistant/{arch}-addon-silabs-multiprotocol
+image: agners/{arch}-addon-silabs-multiprotocol
 init: false
 options:
   device: null
