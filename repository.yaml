@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: Forked addons
+url: 'https://github.com/agners/home-assistant-addons/'
+maintainer: Stefan Agner <stefan@agner.ch>
