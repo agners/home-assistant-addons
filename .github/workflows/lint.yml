@@ -18,7 +18,7 @@ jobs:
     name: hadolint
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.0.0
 
       - name: Run linter
         id: changed_files
@@ -36,7 +36,7 @@ jobs:
     name: YAMLLint
     steps:
       - name: Check out the repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v4.0.0
 
       - name: Run YAMLLint
         uses: frenck/action-yamllint@v1.4
